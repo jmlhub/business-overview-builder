@@ -41,6 +41,10 @@ Use these insights as a lens for reading the materials and presenting informatio
 2. **Pull the necessary SEC filings**. The Donerail Plugin already includes a script to access the SEC API which can be re-used. Pull the SEC filings relevant for the specified light or heavy run. Always read the last 4 earnings releases provided in form 8-K. Also use the SEC API to pull 20 years of revenue, operating income, D&A (to calculate GAAP EBITDA), net income, and EPS data, to evaluate long-term earnings trends (this may be called the SEC EDGAR XBRL API or Company Concept API). Pull stock price history if possible and present it in a chart with the past 3 years of data (or less if that's all that's available). 
 3. **Read the filings, data, and supplementary materials provided by the user**. Consider the facts and data presented, as well as what has changed over time. SEC filings and earnings calls should be viewed as a source of key facts (potentially with management "spin" applied). Sell side analyst research and models are used to frame consensus. Use limited web searches to fill in key knowledge gaps (swings in macro data, resolution of news such as potential M&A, etc.)
 4. **Build the business overview presentation.** Use the template below. Organize key evidence. Quote useful facts and data along with their source documents, speakers, and dates. Use footnotes to provide source information and detail. 
+	1. Be concise: about 15 pages for a heavy run, fewer for a light run, including tables, charts and footnotes.
+	2. Put minor clarifying detail and every source in footnotes, never in bullets or lines of their own; footnote the source of estimates. When a footnote cites an earnings call transcript or a research analyst's note, quote the relevant passage and name the speaker or analyst.
+	3. Do not state what the reader can infer (e.g. that a year marked `YYYYE` is not yet reported).
+	4. Follow the Donerail memo template's formats. In tables, labels and notes go in the left column and numbers only in the value columns, right-aligned; key totals (Market Capitalization, Enterprise Value, etc.) are bold; row labels are short; a table moves to the next page rather than split.
 
 ## 1. Financial Summary
 
@@ -65,12 +69,12 @@ Use these insights as a lens for reading the materials and presenting informatio
 | Enterprise Value                                         | [Value]                 |
 ### Historical and forecast performance
 
-Show two actual years and, when supplied or readily available, two estimate years, labeled `YYYYA` and `YYYYE`. Attribute estimates to management, a named analyst, a consensus source, or a user-provided model. Use only the metrics actually covered by that source. If estimates are unavailable, retain the historical information and label the estimate cells unavailable; do not create a forecast to complete the table. Include adjusted EPS and FCF per share alongside the operating metrics.
+Show two actual years and, when supplied or readily available, two estimate years, labeled `YYYYA` and `YYYYE`. Attribute estimates, in a footnote, to management, a named analyst, a consensus source, or a user-provided model. Use only the metrics actually covered by that source. If estimates are unavailable, retain the historical information and label the estimate cells unavailable; do not create a forecast to complete the table. Include adjusted EPS and FCF per share alongside the operating metrics.
 
-| Metric                             | [YYYYA — prior actual] | [YYYYA — latest actual] | [YYYYE — first estimate] | [YYYYE — second estimate] |
+| FYE: [Month]                       | [YYYYA — prior actual] | [YYYYA — latest actual] | [YYYYE — first estimate] | [YYYYE — second estimate] |
 | ---------------------------------- | ---------------------- | ----------------------- | ------------------------ | ------------------------- |
 | Revenue                            | [Value]                | [Value]                 | [Value]                  | [Value]                   |
-| Year-over-year revenue growth      | [Value]                | [Value]                 | [Value]                  | [Value]                   |
+| Growth Y-Y                         | [Value]                | [Value]                 | [Value]                  | [Value]                   |
 | Adjusted EBITDA                    | [Value]                | [Value]                 | [Value]                  | [Value]                   |
 | Adjusted EBITDA margin             | [Value]                | [Value]                 | [Value]                  | [Value]                   |
 | EV/EBITDA                          | [Value]                | [Value]                 | [Value]                  | [Value]                   |
@@ -140,6 +144,7 @@ Potential sections as relevant based on situation and available information:
 - Sum-of-the-Parts valuation
 	- If the company has multiple segments it is useful to value them separately
 	- Can use sell-side report or model SOTP analysis if available
+	- Otherwise build a simple one when relevant: a table applying a multiple to each segment's earnings, with unallocated corporate cost valued at the segments' blended multiple. Where useful, back into the value implied for one segment (e.g. "if UTI were worth 10x 2027 EBITDA, Concorde would be free")
 - Value of potentially separable assets
 	- If incremental to segment analysis, include this
 	- Business may own separable assets (real estate that could be sold, etc.)
@@ -163,7 +168,7 @@ Key sources of this information:
 - Earnings releases and call transcripts
 
 As possible and relevant, provide:
-- Chart with long-term historical operating income or EBITDA (can use GAAP measures for efficiency since these can be pulled from SEC API)
+- Chart with long-term historical operating income or EBITDA (can use GAAP measures for efficiency since these can be pulled from SEC API); below each year, show Total Revenue, Operating Margin and EBITDA Margin
 - Bridges between Adj EBITDA or Adj EBIT across time periods, showing the factors which impacted earnings between periods to identify key drivers
 - Other schedules or charts as necessary
 

@@ -4,7 +4,7 @@ The human-owned standards behind the Donerail plugin's business-overview-builder
 
     business-overview-builder/
     └── specs/
-        ├── business-overview.md   purpose, investment principles, research workflow, the ten sections
+        ├── business-overview.md   purpose, investment principles, research workflow, the eleven sections
         └── CHANGELOG.md           every approved change, with who approved it
 
 The memo and deck templates are not here: the plugin's document-templates skill owns the shared Donerail templates.
