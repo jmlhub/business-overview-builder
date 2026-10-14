@@ -212,7 +212,23 @@ Keep the work proportional to an initial overview. Do not build a full operating
 
 [Sensitivity summary]
 
-## 7. Key Risks and Liabilities
+## 7. Macro Backdrop
+
+**Structure:**
+
+- Provide a brief explanation of the key macro and industry variables that likely impact key operational drivers and therefore earnings of the company
+- Include bullet points with context to help the analyst frame the macro situation (recent macro trends, where key macro variables are vs. historical levels, publicly available forecasts for the industry, etc.)
+
+**Process:**
+
+- The company filings may identify certain key macro and industry variables
+- Claude should use this and research on the business and key drivers to estimate the key macro and industry variables that drive earnings for the company
+- If necessary, perform targeted research using the internet to add context regarding these key drivers
+- The key focus is understanding factors like where we are in the cycle for key variables, recent trends, and the outlook from credible sources
+- Often this analysis will be straightforward: for a homebuilder, the key macro variables would likely be new home sales, mortgage rates, and labor costs. Claude could briefly search and uncover that there is a widespread belief that there is a deficit of homes in the US, but rising mortgage rates are impacting the short-term outlook.
+- This section should be concise and illuminate key issues for future research.
+
+## 8. Key Risks and Liabilities
 
 Surface risks, liabilities, and exposures a portfolio manager needs to understand before investing.
 
@@ -225,7 +241,7 @@ Surface risks, liabilities, and exposures a portfolio manager needs to understan
 
 Distinguish quantified disclosures, unquantified exposures, and missing information. A lack of disclosure in the reviewed materials does not establish that no exposure exists.
 
-## 8. Recent News and Events
+## 9. Recent News and Events
 
 Use one row per material event. Keep searches focused on consequential developments. Review the IR press release page.
 
@@ -245,7 +261,7 @@ Apply this baseline priority order:
 
 Identify relevant unanswered questions without assigning independent deal probabilities or building event-return scenarios.
 
-## 9. Analyst Perspectives
+## 10. Analyst Perspectives
 
 When research is supplied, summarize the views and the facts they cite. Do not expand the assignment to obtain unavailable research.
 
@@ -258,7 +274,7 @@ Repeat for each relevant analyst:
 
 Distinguish a named analyst's estimate from a defined consensus measure. Include documented buyside views if available; do not infer a consensus from price behavior. Lay out disagreements and the information that would help an analyst examine them, without requiring Claude to resolve the debate.
 
-## 10. Source Documents and Follow-up Questions
+## 11. Source Documents and Follow-up Questions
 
 List the documents and data sources actually used, including filing or publication dates and the periods covered.
 
