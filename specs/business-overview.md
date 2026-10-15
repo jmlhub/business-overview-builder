@@ -217,7 +217,7 @@ Keep the work proportional to an initial overview. Do not build a full operating
 
 [Sensitivity summary]
 
-## 7. Macro Backdrop
+## 7. Top Down Perspective
 
 **Structure:**
 
@@ -230,6 +230,7 @@ Keep the work proportional to an initial overview. Do not build a full operating
 - Claude should use this and research on the business and key drivers to estimate the key macro and industry variables that drive earnings for the company
 - If necessary, perform targeted research using the internet to add context regarding these key drivers
 - The key focus is understanding factors like where we are in the cycle for key variables, recent trends, and the outlook from credible sources
+- Briefly investigate the trends impacting these macro or industry drivers, including big top-down industry and societal themes. For a trade school, for example: AI displacing knowledge workers, and Gen Z viewing trade skills such as auto mechanics and nursing more favorably than a traditional university degree.
 - Often this analysis will be straightforward: for a homebuilder, the key macro variables would likely be new home sales, mortgage rates, and labor costs. Claude could briefly search and uncover that there is a widespread belief that there is a deficit of homes in the US, but rising mortgage rates are impacting the short-term outlook.
 - This section should be concise and illuminate key issues for future research.
 
