@@ -45,6 +45,7 @@ Use these insights as a lens for reading the materials and presenting informatio
 	2. Put minor clarifying detail and every source in footnotes, never in bullets or lines of their own; footnote the source of estimates. When a footnote cites an earnings call transcript or a research analyst's note, quote the relevant passage and name the speaker or analyst.
 	3. Do not state what the reader can infer (e.g. that a year marked `YYYYE` is not yet reported).
 	4. Follow the Donerail memo template's formats. In tables, labels and notes go in the left column and numbers only in the value columns, right-aligned; key totals (Market Capitalization, Enterprise Value, etc.) are bold; row labels are short; a table moves to the next page rather than split.
+	5. A deck (screen- or printer-friendly) carries the same information as the memo. Spread a section across as many slides as it needs and push detail to footnotes on the slides, but a deck never includes only part of the helpful information.
 
 ## 1. Financial Summary
 
